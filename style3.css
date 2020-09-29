@@ -59,8 +59,10 @@
 }
 
 .content{
-    font: 20px "Calibri Light", sans-serif;
+    width:50%;
+    font: 20px "Arial", sans-serif;
     line-height: 0.7;
-    text-indent: 50px;
+    white-space: normal;
+
 
 }
