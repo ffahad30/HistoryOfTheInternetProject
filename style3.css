@@ -59,5 +59,8 @@
 }
 
 .content{
-    font-family: "Calibri Light";
+    font: 20px "Calibri Light", sans-serif;
+    line-height: 0.7;
+    text-indent: 50px;
+
 }
