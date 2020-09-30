@@ -1,3 +1,7 @@
+html{
+    background-color: #ebeced
+}
+
 .navbar {
     overflow: hidden;
     background-color: #383838;
@@ -71,7 +75,7 @@
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: white;
+    background-color: #ebeced;
 }
 
 
