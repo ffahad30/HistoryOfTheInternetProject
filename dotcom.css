@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #383838;
 }
 
 .navbar a {
@@ -20,9 +20,9 @@
 
 .dropdown .dropbtn {
     font-size: 16px;
-    font-family: Cambria, "Helvetica Neue", sans-serif;
     border: none;
     outline: none;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
@@ -37,6 +37,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
