@@ -1,6 +1,7 @@
 .navbar {
     overflow: hidden;
     background-color:#383838;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
 }
 
 .navbar a {
@@ -10,6 +11,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
 }
 
 .dropdown {
@@ -39,6 +41,7 @@
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
 }
 
 .dropdown-content a {
@@ -48,6 +51,7 @@
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
 }
 
 .dropdown-content a:hover {
@@ -102,6 +106,7 @@ html{
     padding: 25px 50px 75px;
     font-family: font-family Arial, Helvetica, sans-serif;
     alignment:center;
+    background-color:#ebeced;
 }
 
 .image {
@@ -116,3 +121,5 @@ p{
     alignment:center;
     width:fit-content;
 }
+
+
