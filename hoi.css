@@ -1,3 +1,7 @@
+html{
+    background-color:#ebeced;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -6,6 +10,7 @@
 .navbar a {
     float: left;
     font-size: 16px;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -21,21 +26,22 @@
     font-size: 16px;
     border: none;
     outline: none;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #042454;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
@@ -57,4 +63,65 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.content {
+    alignment:center;
+    width:1300px;
+    font: 20px "Arial", sans-serif;
+    line-height: normal;
+    white-space: normal;
+}
 
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #ebeced;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+
+
+ul.breadcrumb li+li:before {
+    padding-top: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: dimgray;
+    text-decoration: none;
+}
+
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+html{
+    padding: 25px 50px 75px;
+    font-family: font-family Arial, Helvetica, sans-serif;
+    alignment:center;
+}
+
+.image {
+    alignment:center;
+    padding:35px;
+
+}
+h1{
+    alignment:center;
+    font-family: Cambria, "Helvetica Neue", sans-serif
+}
+body{
+    font-family: Arial, Arial, sans-serif;
+}
+p{
+    alignment:center;
+    width:fit-content;
+}
