@@ -1,6 +1,7 @@
 .navbar {
     overflow: hidden;
     background-color: #333;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
 }
 
 .navbar a {
@@ -10,6 +11,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
 }
 
 .dropdown {
@@ -39,6 +41,7 @@
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
 }
 
 .dropdown-content a {
@@ -74,4 +77,12 @@ body {
 .content{
     alignment:center;
     padding:20px;
+}
+
+html{
+    background-color:#ebeced;
+}
+
+a {
+    color:#01447e;
 }
