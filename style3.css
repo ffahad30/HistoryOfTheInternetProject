@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:#383838;
 }
 
 .navbar a {
@@ -29,7 +29,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color:#042454;
 }
 
 .dropdown-content {
@@ -59,7 +59,8 @@
 }
 
 .content {
-    width: 50%;
+    alignment:center;
+    width:fit-content;
     font: 20px "Arial", sans-serif;
     line-height: normal;
     white-space: normal;
@@ -99,4 +100,16 @@ ul.breadcrumb li a:hover {
 
 html{
     padding: 25px 50px 75px;
+    font-family: font-family: Arial, Helvetica, sans-serif;
 }
+
+.image {
+    alignment:center;
+    padding:35px;
+
+}
+h1{
+    alignment:center;
+}
+
+
