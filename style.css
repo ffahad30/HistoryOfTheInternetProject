@@ -1,11 +1,12 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #383838;
 }
 
 .navbar a {
     float: left;
     font-size: 16px;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -21,21 +22,22 @@
     font-size: 16px;
     border: none;
     outline: none;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #042454;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
@@ -57,12 +59,34 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.bg {
-    background-image: url("https://images.unsplash.com/photo-1545987796-200677ee1011?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
-
+body, html {
     height: 100%;
+}
+
+
+.hero-image {
+
+    background-image: url("https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+
+    height: 95%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
+    font-size: 44px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+p {
+    font-family: Cambria, "Helvetica Neue", sans-serif;
+    font-size: 35px
 }
