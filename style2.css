@@ -29,7 +29,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #01447e;
 }
 
 .dropdown-content {
@@ -56,4 +56,22 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background:gray;
+    color: white;
+    font-size: 30px;
+}
+.content{
+    alignment:center;
+    padding:20px;
 }
