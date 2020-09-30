@@ -1,3 +1,43 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+@media screen and (max-width: 700px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: grey;
+}
+.img-fizah2.jpg{
+    width: 20px;
+    height: 20px;
+}
+.img-loni2.jpg{
+    width: 20px;
+    height: 20px;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -7,6 +47,7 @@
     float: left;
     font-size: 16px;
     color: white;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,12 +65,12 @@
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
     margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #042454;
 }
 
 .dropdown-content {
@@ -56,4 +97,64 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.content {
+    alignment:center;
+    width:1300px;
+    font: 20px "Arial", sans-serif;
+    line-height: normal;
+    white-space: normal;
+}
+
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: white;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+
+
+ul.breadcrumb li+li:before {
+    padding-top: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+    color: dimgray;
+    text-decoration: none;
+}
+
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+html{
+    padding: 25px 50px 75px;
+    font-family: font-family Arial, Helvetica, sans-serif;
+    alignment:center;
+}
+
+.image {
+    alignment:center;
+    padding:35px;
+
+}
+h1{
+    alignment:center;
+    font-family: Cambria, "Helvetica Neue", sans-serif;
+    font-size: 40px
+}
+p{
+    alignment:center;
+    width:fit-content;
 }
