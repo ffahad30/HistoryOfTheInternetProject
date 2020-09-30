@@ -112,5 +112,9 @@ html{
 h1{
     alignment:center;
 }
+p{
+    alignment:center
+    width:fit-content;
+}
 
 
